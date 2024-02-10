@@ -79,5 +79,7 @@ galleryEl.innerHTML = images.reduce(
 );
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  /* options */
+  captionsData: 'alt',
+  captionsDelay: 250,
 });
+

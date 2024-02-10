@@ -1,7 +1,6 @@
-
 @import url('./reset.css');
 
-.gallery{
+.gallery {
   max-width: 1440px;
   display: flex;
   flex-wrap: wrap;
@@ -13,12 +12,62 @@
   padding: 100px 156px;
 }
 
-.gallery-img{
+.gallery-img {
   width: 360px;
   box-sizing: border-box;
 }
 
-.img{
+.img {
   width: 360px;
   height: 300px;
+}
+
+.feedback-form {
+  display: block;
+  width: 408px;
+  padding: 24px;
+}
+
+.input-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.feedback-input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 100%);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.feedback-txt {
+  width: 360px;
+  resize: none;
+  border: 1px solid rgba(128, 128, 128, 100%);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.feedback-btn {
+  max-width: 95px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: rgba(78, 117, 255, 1);
+  border: none;
+}
+
+.btn-txt {
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 500;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: white;
 }
